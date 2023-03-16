@@ -1,0 +1,26 @@
+.sort {
+  position: relative;
+  width: 288px;
+  margin-left: auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background: url("/public/images/icons/arrow.svg") no-repeat;
+  }
+
+  &__select {
+    display: flex;
+    width: 288px;
+    padding: 10px 22px 10px 14px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    appearance: none;
+  }
+}

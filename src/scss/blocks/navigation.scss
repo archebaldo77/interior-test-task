@@ -1,0 +1,39 @@
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+
+  &__item:hover {
+    color: $hover-color;
+
+    svg {
+      fill: $hover-color;
+    }
+  }
+
+  &__text {
+    @media (max-width: $mobile-width) {
+      display: none;
+    }
+  }
+
+  &__icon {
+    display: none;
+
+    @media (max-width: $mobile-width) {
+      display: flex;
+      align-self: flex-start;
+    }
+  }
+}

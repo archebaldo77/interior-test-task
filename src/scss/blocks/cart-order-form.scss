@@ -1,0 +1,30 @@
+.cart-order-form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    width: 288px;
+    border: none;
+    border-bottom: 1px solid #cacdd8;
+    padding-bottom: 3px;
+    background-color: inherit;
+    color: #000;
+    margin-bottom: 44px;
+
+    &:hover {
+      color: $hover-color;
+
+      &::placeholder {
+        color: $hover-color;
+      }
+    }
+
+    &::placeholder {
+      color: #000;
+    }
+
+    &--address {
+      margin-bottom: 68px;
+    }
+  }
+}

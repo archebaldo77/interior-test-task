@@ -1,0 +1,41 @@
+.cart-menu {
+  @media (max-width: $mobile-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__button {
+    width: 200px;
+    height: 37px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+
+    @media (max-width: $mobile-width) {
+      width: auto;
+    }
+
+    &--clear {
+      border-color: #000;
+      background-color: transparent;
+
+      &:hover {
+        border-color: $hover-color;
+        color: $hover-color;
+      }
+    }
+
+    &--continue {
+      color: #fff;
+      border-color: #fff;
+      background-color: #000;
+
+      &:hover {
+        border-color: $hover-color;
+        color: $hover-color;
+      }
+    }
+  }
+}

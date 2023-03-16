@@ -1,0 +1,16 @@
+.title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    color: $hover-color;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

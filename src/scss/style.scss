@@ -1,0 +1,41 @@
+@import "./helpers/const.scss";
+
+// blocks
+@import "./blocks/site.scss";
+@import "./blocks/main.scss";
+@import "./blocks/container.scss";
+@import "./blocks/header.scss";
+@import "./blocks/title.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/sort.scss";
+@import "./blocks/interior-items.scss";
+@import "./blocks/interior-item.scss";
+@import "./blocks/cart-items.scss";
+@import "./blocks/cart-menu.scss";
+@import "./blocks/cart-order.scss";
+@import "./blocks/cart-order-form.scss";
+
+// common;
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 400 14px/17px "Montserrat", sans-serif;
+  background-color: $main-bg-color;
+  color: $main-text-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}

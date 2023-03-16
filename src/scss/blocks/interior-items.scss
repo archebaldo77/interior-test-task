@@ -1,0 +1,21 @@
+.interior-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px 30px;
+  padding-bottom: 48px;
+
+  @media (max-width: $tablet-width) {
+    gap: 40px 20px;
+    padding-bottom: 40px;
+  }
+
+  @media (max-width: $mobile-width) {
+    gap: 20px 0;
+    padding-bottom: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}

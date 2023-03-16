@@ -1,0 +1,14 @@
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    background-color: #cccccc;
+    color: $light-text-color;
+
+    @media (max-width: $mobile-width) {
+      padding: 50px 16px 18px;
+    }
+  }
+}

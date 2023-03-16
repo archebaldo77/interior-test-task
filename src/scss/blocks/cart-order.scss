@@ -1,0 +1,44 @@
+.cart-order {
+  background-color: #f7f6f6;
+  border-radius: 20px;
+
+  &__container {
+    width: 379px;
+    padding: 42px 28px;
+
+    @media (max-width: $mobile-width) {
+      width: 343px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 35px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  &__total {
+    margin: 0 0 18px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &__buy {
+    width: 288px;
+    padding: 11px;
+    text-align: center;
+    border: 1px solid #040404;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+
+    &:hover {
+      border-color: $hover-color;
+      color: $hover-color;
+    }
+  }
+}
