@@ -1,0 +1,25 @@
+{
+  "name": "interior-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "6.7.3",
+    "eslint": "8.36.0",
+    "gh-pages": "5.0.0",
+    "sass": "1.59.3",
+    "sass-loader": "13.2.0",
+    "style-loader": "3.3.2",
+    "webpack": "5.76.2",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.12.0"
+  }
+}
